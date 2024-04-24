@@ -1,0 +1,44 @@
+# Train a BERT model on the train data in the semeval2017 dataset to detect puns
+
+import pandas as pd
+import torch
+from transformers import BertTokenizer, BertForSequenceClassification
+
+# Load the BERT tokenizer
+tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+
+# Load the pre-trained BERT model for sequence classification
+model = BertForSequenceClassification.from_pretrained('bert-base-uncased')
+
+# Define your training data from the semeval2017 dataset
+train_data_path = r'C:/Users/Srikanth/My Drive (siyer5@binghamton.edu)/Binghamton/Spring 2024 Courses/SSIE 519- Soft Computing- Sadamori Kojaku/SSIE 519 Soft Computing Final project- Srikanth, Annajirao/semeval2017_task7/data/trial'
+
+# Fine-tune the BERT model on the training data
+train_data = pd.read_csv(train_data_path, delimiter='\t')
+
+# Define your training data from the semeval2017 dataset for subtask 1 homographic trial
+train_data_path_homographic = r'C:/Users/Srikanth/My Drive (siyer5@binghamton.edu)/Binghamton/Spring 2024 Courses/SSIE 519- Soft Computing- Sadamori Kojaku/SSIE 519 Soft Computing Final project- Srikanth, Annajirao/semeval2017_task7/data/trial/subtask1-homographic-trial'
+
+# Load the training data for subtask 1 homographic trial
+train_data_homographic = pd.read_csv(train_data_path_homographic, delimiter='\t')
+
+# Extract the sentences and labels from the training data for subtask 1 homographic trial
+sentences_homographic = train_data_homographic['sentence'].tolist()
+labels_homographic = train_data_homographic['label'].tolist()
+
+# Tokenize the sentences for BERT input
+encoded_inputs_homographic = tokenizer(sentences_homographic, padding=True, truncation=True, return_tensors='pt')
+
+# Fine-tune the BERT model on the training data for subtask 1 homographic trial
+model.train()
+optimizer = torch.optim.AdamW(model.parameters(), lr=5e-5)
+
+for epoch in range(3):
+    for i in range(0, len(sentences_homographic), batch_size):
+        optimizer.zero_grad()
+        batch_inputs = {k: v[i:i+batch_size] for k, v in encoded_inputs_homographic.items()}
+        batch_labels = torch.tensor(labels_homographic[i:i+batch_size])
+        outputs = model(**batch_inputs, labels=batch_labels)
+        loss = outputs.loss
+        loss.backward()
+        optimizer.step()
