@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: semantic-shape-of-puns
+Version: 0.1
+Summary: My Python project
+Author: Your Name
+Author-email: your@email.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: plotly
+Requires-Dist: ipywidgets
+Requires-Dist: seaborn
+Requires-Dist: black
+Requires-Dist: transformers
+Requires-Dist: tqdm
+Requires-Dist: scikit-learn
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: re
+Requires-Dist: config
+Requires-Dist: copy
+Requires-Dist: argparse
+Requires-Dist: os
+Requires-Dist: sys
+Requires-Dist: models
+Requires-Dist: utils
+Requires-Dist: inference
+Requires-Dist: sklearn

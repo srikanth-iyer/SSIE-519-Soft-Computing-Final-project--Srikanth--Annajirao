@@ -1,0 +1,7 @@
+README.md
+setup.py
+semantic_shape_of_puns.egg-info/PKG-INFO
+semantic_shape_of_puns.egg-info/SOURCES.txt
+semantic_shape_of_puns.egg-info/dependency_links.txt
+semantic_shape_of_puns.egg-info/requires.txt
+semantic_shape_of_puns.egg-info/top_level.txt
