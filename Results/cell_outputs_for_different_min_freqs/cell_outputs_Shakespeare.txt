@@ -1,0 +1,201 @@
+
+Calculating SemD values for Shakespeare corpus with min frequency 1000 and min contexts 5
+
+Length of Corpus: 953359
+First 20 words in the corpus: ['a', 'midsummer', 'night', 'dream', 'by', 'william', 'shakespeare', 'edited', 'by', 'barbara', 'mowat', 'and', 'paul', 'werstine', 'with', 'michael', 'poston', 'and', 'rebecca', 'niles']
+Number of distinct words: 23754
+Number of words in corpus: 953359
+Number of distinct words with at least 1000 appearances: 122
+U shape: (122, 122)
+S shape: (122,)
+V shape: (954, 122)
+Word vectors length: 122
+Context vectors length: 954
+Context vectors shape: (954, 122)
+  Word      SemD  Word Probability
+0    a  4.906352          0.016447
+1  and  4.906352          0.029825
+2   in  4.906352          0.012538
+3   is  4.906352          0.011971
+4   of  4.906352          0.019349
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Shakespeare_semD_Basic_lowercase_1000word_contexts_min_freq_1000_min_contexts_5.csv
+Top 10 words with highest SemD values:    Word      SemD  Word Probability
+0     a  4.906352          0.016447
+1   and  4.906352          0.029825
+2    in  4.906352          0.012538
+3    is  4.906352          0.011971
+4    of  4.906352          0.019349
+5   the  4.906352          0.030791
+6    to  4.906352          0.023047
+7  with  4.906352          0.009050
+8    be  4.906287          0.007662
+9   not  4.906228          0.010305
+Spearman Rank Correlation: SignificanceResult(statistic=0.860299070979508, pvalue=6.493483286915845e-37)
+Correlation for Shakespeare corpus with min frequency 1000: SignificanceResult(statistic=0.860299070979508, pvalue=6.493483286915845e-37)
+Calculating SemD values for Shakespeare corpus with min frequency 500 and min contexts 5
+
+Length of Corpus: 953359
+First 20 words in the corpus: ['a', 'midsummer', 'night', 'dream', 'by', 'william', 'shakespeare', 'edited', 'by', 'barbara', 'mowat', 'and', 'paul', 'werstine', 'with', 'michael', 'poston', 'and', 'rebecca', 'niles']
+Number of distinct words: 23754
+Number of words in corpus: 953359
+Number of distinct words with at least 500 appearances: 223
+U shape: (223, 223)
+S shape: (223,)
+V shape: (954, 223)
+Word vectors length: 223
+Context vectors length: 954
+Context vectors shape: (954, 223)
+  Word      SemD  Word Probability
+0   be  5.587307          0.007662
+1    a  5.587085          0.016447
+2  and  5.587085          0.029825
+3   in  5.587085          0.012538
+4   is  5.587085          0.011971
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Shakespeare_semD_Basic_lowercase_1000word_contexts_min_freq_500_min_contexts_5.csv
+Top 10 words with highest SemD values:    Word      SemD  Word Probability
+0    be  5.587307          0.007662
+1     a  5.587085          0.016447
+2   and  5.587085          0.029825
+3    in  5.587085          0.012538
+4    is  5.587085          0.011971
+5    of  5.587085          0.019349
+6   the  5.587085          0.030791
+7    to  5.587085          0.023047
+8  with  5.587085          0.009050
+9   not  5.587057          0.010305
+Spearman Rank Correlation: SignificanceResult(statistic=0.8859590294249899, pvalue=1.0785766612651863e-75)
+Correlation for Shakespeare corpus with min frequency 500: SignificanceResult(statistic=0.8859590294249899, pvalue=1.0785766612651863e-75)
+Calculating SemD values for Shakespeare corpus with min frequency 100 and min contexts 5
+
+Length of Corpus: 953359
+First 20 words in the corpus: ['a', 'midsummer', 'night', 'dream', 'by', 'william', 'shakespeare', 'edited', 'by', 'barbara', 'mowat', 'and', 'paul', 'werstine', 'with', 'michael', 'poston', 'and', 'rebecca', 'niles']
+Number of distinct words: 23754
+Number of words in corpus: 953359
+Number of distinct words with at least 100 appearances: 1033
+U shape: (1033, 954)
+S shape: (954,)
+V shape: (954, 954)
+Word vectors length: 1033
+Context vectors length: 954
+Context vectors shape: (954, 954)
+  Word      SemD  Word Probability
+0    a  6.860664          0.016447
+1  and  6.860664          0.029825
+2   in  6.860664          0.012538
+3   is  6.860664          0.011971
+4   of  6.860664          0.019349
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Shakespeare_semD_Basic_lowercase_1000word_contexts_min_freq_100_min_contexts_5.csv
+Top 10 words with highest SemD values:    Word      SemD  Word Probability
+0     a  6.860664          0.016447
+1   and  6.860664          0.029825
+2    in  6.860664          0.012538
+3    is  6.860664          0.011971
+4    of  6.860664          0.019349
+5   the  6.860664          0.030791
+6    to  6.860664          0.023047
+7  with  6.860664          0.009050
+8    be  6.859615          0.007662
+9   but  6.859615          0.007091
+Spearman Rank Correlation: SignificanceResult(statistic=0.835747156224017, pvalue=1.162463360352494e-270)
+Correlation for Shakespeare corpus with min frequency 100: SignificanceResult(statistic=0.835747156224017, pvalue=1.162463360352494e-270)
+Calculating SemD values for Shakespeare corpus with min frequency 50 and min contexts 5
+
+Length of Corpus: 953359
+First 20 words in the corpus: ['a', 'midsummer', 'night', 'dream', 'by', 'william', 'shakespeare', 'edited', 'by', 'barbara', 'mowat', 'and', 'paul', 'werstine', 'with', 'michael', 'poston', 'and', 'rebecca', 'niles']
+Number of distinct words: 23754
+Number of words in corpus: 953359
+Number of distinct words with at least 50 appearances: 1845
+U shape: (1845, 954)
+S shape: (954,)
+V shape: (954, 954)
+Word vectors length: 1845
+Context vectors length: 954
+Context vectors shape: (954, 954)
+  Word      SemD  Word Probability
+0    a  6.860664          0.016447
+1  and  6.860664          0.029825
+2   in  6.860664          0.012538
+3   is  6.860664          0.011971
+4   of  6.860664          0.019349
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Shakespeare_semD_Basic_lowercase_1000word_contexts_min_freq_50_min_contexts_5.csv
+Top 10 words with highest SemD values:    Word      SemD  Word Probability
+0     a  6.860664          0.016447
+1   and  6.860664          0.029825
+2    in  6.860664          0.012538
+3    is  6.860664          0.011971
+4    of  6.860664          0.019349
+5   the  6.860664          0.030791
+6    to  6.860664          0.023047
+7  with  6.860664          0.009050
+8   but  6.859615          0.007091
+9     i  6.859615          0.024765
+Spearman Rank Correlation: SignificanceResult(statistic=0.7706666432949064, pvalue=0.0)
+Correlation for Shakespeare corpus with min frequency 50: SignificanceResult(statistic=0.7706666432949064, pvalue=0.0)
+Calculating SemD values for Shakespeare corpus with min frequency 10 and min contexts 5
+
+Length of Corpus: 953359
+First 20 words in the corpus: ['a', 'midsummer', 'night', 'dream', 'by', 'william', 'shakespeare', 'edited', 'by', 'barbara', 'mowat', 'and', 'paul', 'werstine', 'with', 'michael', 'poston', 'and', 'rebecca', 'niles']
+Number of distinct words: 23754
+Number of words in corpus: 953359
+Number of distinct words with at least 10 appearances: 5775
+U shape: (5775, 954)
+S shape: (954,)
+V shape: (954, 954)
+Word vectors length: 5775
+Context vectors length: 954
+Context vectors shape: (954, 954)
+  Word      SemD  Word Probability
+0    a  6.860664          0.016447
+1  and  6.860664          0.029825
+2   in  6.860664          0.012538
+3   is  6.860664          0.011971
+4   of  6.860664          0.019349
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Shakespeare_semD_Basic_lowercase_1000word_contexts_min_freq_10_min_contexts_5.csv
+Top 10 words with highest SemD values:    Word      SemD  Word Probability
+0     a  6.860664          0.016447
+1   and  6.860664          0.029825
+2    in  6.860664          0.012538
+3    is  6.860664          0.011971
+4    of  6.860664          0.019349
+5   the  6.860664          0.030791
+6    to  6.860664          0.023047
+7  with  6.860664          0.009050
+8    be  6.859615          0.007662
+9   but  6.859615          0.007091
+Spearman Rank Correlation: SignificanceResult(statistic=0.8836049173894347, pvalue=0.0)
+Correlation for Shakespeare corpus with min frequency 10: SignificanceResult(statistic=0.8836049173894347, pvalue=0.0)
+Calculating SemD values for Shakespeare corpus with min frequency 5 and min contexts 5
+
+Length of Corpus: 953359
+First 20 words in the corpus: ['a', 'midsummer', 'night', 'dream', 'by', 'william', 'shakespeare', 'edited', 'by', 'barbara', 'mowat', 'and', 'paul', 'werstine', 'with', 'michael', 'poston', 'and', 'rebecca', 'niles']
+Number of distinct words: 23754
+Number of words in corpus: 953359
+Number of distinct words with at least 5 appearances: 8824
+U shape: (8824, 954)
+S shape: (954,)
+V shape: (954, 954)
+Word vectors length: 8824
+Context vectors length: 954
+Context vectors shape: (954, 954)
+  Word      SemD  Word Probability
+0    a  6.860664          0.016447
+1  and  6.860664          0.029825
+2   in  6.860664          0.012538
+3   is  6.860664          0.011971
+4   of  6.860664          0.019349
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Shakespeare_semD_Basic_lowercase_1000word_contexts_min_freq_5_min_contexts_5.csv
+Top 10 words with highest SemD values:    Word      SemD  Word Probability
+0     a  6.860664          0.016447
+1   and  6.860664          0.029825
+2    in  6.860664          0.012538
+3    is  6.860664          0.011971
+4    of  6.860664          0.019349
+5   the  6.860664          0.030791
+6    to  6.860664          0.023047
+7  with  6.860664          0.009050
+8    be  6.859615          0.007662
+9   but  6.859615          0.007091
+Spearman Rank Correlation: SignificanceResult(statistic=0.9344426307664597, pvalue=0.0)
+Correlation for Shakespeare corpus with min frequency 5: SignificanceResult(statistic=0.9344426307664597, pvalue=0.0)
+
+

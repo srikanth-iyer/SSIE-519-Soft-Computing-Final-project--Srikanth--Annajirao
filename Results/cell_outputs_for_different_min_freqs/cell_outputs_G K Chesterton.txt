@@ -1,0 +1,201 @@
+
+Calculating SemD values for G K Chesterton corpus with min frequency 1000 and min contexts 5
+
+Length of Corpus: 1169866
+First 20 words in the corpus: ['orthodoxy', 'by', 'gilbert', 'chesterton', 'preface', 'this', 'book', 'is', 'meant', 'to', 'be', 'a', 'companion', 'to', 'heretics', 'and', 'to', 'put', 'the', 'positive']
+Number of distinct words: 27330
+Number of words in corpus: 1169866
+Number of distinct words with at least 1000 appearances: 128
+U shape: (128, 128)
+S shape: (128,)
+V shape: (1170, 128)
+Word vectors length: 128
+Context vectors length: 1170
+Context vectors shape: (1170, 128)
+  Word      SemD  Word Probability
+0    a  4.935422          0.028487
+1  and  4.935422          0.028937
+2   as  4.935422          0.009413
+3  but  4.935422          0.008864
+4   in  4.935422          0.019179
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/G K Chesterton_semD_Basic_lowercase_1000word_contexts_min_freq_1000_min_contexts_5.csv
+Top 10 words with highest SemD values:    Word      SemD  Word Probability
+0     a  4.935422          0.028487
+1   and  4.935422          0.028937
+2    as  4.935422          0.009413
+3   but  4.935422          0.008864
+4    in  4.935422          0.019179
+5    of  4.935422          0.037553
+6  that  4.935422          0.018172
+7   the  4.935422          0.066267
+8    to  4.935422          0.021760
+9   all  4.935126          0.005207
+Spearman Rank Correlation: SignificanceResult(statistic=0.9183916846419033, pvalue=1.4176024565051204e-52)
+Correlation for G K Chesterton corpus with min frequency 1000: SignificanceResult(statistic=0.9183916846419033, pvalue=1.4176024565051204e-52)
+Calculating SemD values for G K Chesterton corpus with min frequency 500 and min contexts 5
+
+Length of Corpus: 1169866
+First 20 words in the corpus: ['orthodoxy', 'by', 'gilbert', 'chesterton', 'preface', 'this', 'book', 'is', 'meant', 'to', 'be', 'a', 'companion', 'to', 'heretics', 'and', 'to', 'put', 'the', 'positive']
+Number of distinct words: 27330
+Number of words in corpus: 1169866
+Number of distinct words with at least 500 appearances: 236
+U shape: (236, 236)
+S shape: (236,)
+V shape: (1170, 236)
+Word vectors length: 236
+Context vectors length: 1170
+Context vectors shape: (1170, 236)
+  Word      SemD  Word Probability
+0   it  5.618717          0.015957
+1    a  5.618711          0.028487
+2  and  5.618711          0.028937
+3   as  5.618711          0.009413
+4  but  5.618711          0.008864
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/G K Chesterton_semD_Basic_lowercase_1000word_contexts_min_freq_500_min_contexts_5.csv
+Top 10 words with highest SemD values:    Word      SemD  Word Probability
+0    it  5.618717          0.015957
+1     a  5.618711          0.028487
+2   and  5.618711          0.028937
+3    as  5.618711          0.009413
+4   but  5.618711          0.008864
+5    in  5.618711          0.019179
+6    of  5.618711          0.037553
+7  that  5.618711          0.018172
+8   the  5.618711          0.066267
+9    to  5.618711          0.021760
+Spearman Rank Correlation: SignificanceResult(statistic=0.9244202119687558, pvalue=6.126872176476285e-100)
+Correlation for G K Chesterton corpus with min frequency 500: SignificanceResult(statistic=0.9244202119687558, pvalue=6.126872176476285e-100)
+Calculating SemD values for G K Chesterton corpus with min frequency 100 and min contexts 5
+
+Length of Corpus: 1169866
+First 20 words in the corpus: ['orthodoxy', 'by', 'gilbert', 'chesterton', 'preface', 'this', 'book', 'is', 'meant', 'to', 'be', 'a', 'companion', 'to', 'heretics', 'and', 'to', 'put', 'the', 'positive']
+Number of distinct words: 27330
+Number of words in corpus: 1169866
+Number of distinct words with at least 100 appearances: 1120
+U shape: (1120, 1120)
+S shape: (1120,)
+V shape: (1170, 1120)
+Word vectors length: 1120
+Context vectors length: 1170
+Context vectors shape: (1170, 1120)
+  Word      SemD  Word Probability
+0    a  7.061673          0.028487
+1  and  7.061673          0.028937
+2   as  7.061673          0.009413
+3  but  7.061673          0.008864
+4   in  7.061673          0.019179
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/G K Chesterton_semD_Basic_lowercase_1000word_contexts_min_freq_100_min_contexts_5.csv
+Top 10 words with highest SemD values:    Word      SemD  Word Probability
+0     a  7.061673          0.028487
+1   and  7.061673          0.028937
+2    as  7.061673          0.009413
+3   but  7.061673          0.008864
+4    in  7.061673          0.019179
+5    of  7.061673          0.037553
+6  that  7.061673          0.018172
+7   the  7.061673          0.066267
+8    to  7.061673          0.021760
+9    it  7.059133          0.015957
+Spearman Rank Correlation: SignificanceResult(statistic=0.9393447332796567, pvalue=0.0)
+Correlation for G K Chesterton corpus with min frequency 100: SignificanceResult(statistic=0.9393447332796567, pvalue=0.0)
+Calculating SemD values for G K Chesterton corpus with min frequency 50 and min contexts 5
+
+Length of Corpus: 1169866
+First 20 words in the corpus: ['orthodoxy', 'by', 'gilbert', 'chesterton', 'preface', 'this', 'book', 'is', 'meant', 'to', 'be', 'a', 'companion', 'to', 'heretics', 'and', 'to', 'put', 'the', 'positive']
+Number of distinct words: 27330
+Number of words in corpus: 1169866
+Number of distinct words with at least 50 appearances: 2152
+U shape: (2152, 1170)
+S shape: (1170,)
+V shape: (1170, 1170)
+Word vectors length: 2152
+Context vectors length: 1170
+Context vectors shape: (1170, 1170)
+  Word      SemD  Word Probability
+0    a  7.064759          0.028487
+1  and  7.064759          0.028937
+2   as  7.064759          0.009413
+3  but  7.064759          0.008864
+4   in  7.064759          0.019179
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/G K Chesterton_semD_Basic_lowercase_1000word_contexts_min_freq_50_min_contexts_5.csv
+Top 10 words with highest SemD values:    Word      SemD  Word Probability
+0     a  7.064759          0.028487
+1   and  7.064759          0.028937
+2    as  7.064759          0.009413
+3   but  7.064759          0.008864
+4    in  7.064759          0.019179
+5    of  7.064759          0.037553
+6  that  7.064759          0.018172
+7   the  7.064759          0.066267
+8    to  7.064759          0.021760
+9    it  7.062192          0.015957
+Spearman Rank Correlation: SignificanceResult(statistic=0.9468500570100622, pvalue=0.0)
+Correlation for G K Chesterton corpus with min frequency 50: SignificanceResult(statistic=0.9468500570100622, pvalue=0.0)
+Calculating SemD values for G K Chesterton corpus with min frequency 10 and min contexts 5
+
+Length of Corpus: 1169866
+First 20 words in the corpus: ['orthodoxy', 'by', 'gilbert', 'chesterton', 'preface', 'this', 'book', 'is', 'meant', 'to', 'be', 'a', 'companion', 'to', 'heretics', 'and', 'to', 'put', 'the', 'positive']
+Number of distinct words: 27330
+Number of words in corpus: 1169866
+Number of distinct words with at least 10 appearances: 7585
+U shape: (7585, 1170)
+S shape: (1170,)
+V shape: (1170, 1170)
+Word vectors length: 7585
+Context vectors length: 1170
+Context vectors shape: (1170, 1170)
+  Word      SemD  Word Probability
+0    a  7.064759          0.028487
+1  and  7.064759          0.028937
+2   as  7.064759          0.009413
+3  but  7.064759          0.008864
+4   in  7.064759          0.019179
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/G K Chesterton_semD_Basic_lowercase_1000word_contexts_min_freq_10_min_contexts_5.csv
+Top 10 words with highest SemD values:    Word      SemD  Word Probability
+0     a  7.064759          0.028487
+1   and  7.064759          0.028937
+2    as  7.064759          0.009413
+3   but  7.064759          0.008864
+4    in  7.064759          0.019179
+5    of  7.064759          0.037553
+6  that  7.064759          0.018172
+7   the  7.064759          0.066267
+8    to  7.064759          0.021760
+9    it  7.062192          0.015957
+Spearman Rank Correlation: SignificanceResult(statistic=0.9556458506662718, pvalue=0.0)
+Correlation for G K Chesterton corpus with min frequency 10: SignificanceResult(statistic=0.9556458506662718, pvalue=0.0)
+Calculating SemD values for G K Chesterton corpus with min frequency 5 and min contexts 5
+
+Length of Corpus: 1169866
+First 20 words in the corpus: ['orthodoxy', 'by', 'gilbert', 'chesterton', 'preface', 'this', 'book', 'is', 'meant', 'to', 'be', 'a', 'companion', 'to', 'heretics', 'and', 'to', 'put', 'the', 'positive']
+Number of distinct words: 27330
+Number of words in corpus: 1169866
+Number of distinct words with at least 5 appearances: 11602
+U shape: (11602, 1170)
+S shape: (1170,)
+V shape: (1170, 1170)
+Word vectors length: 11602
+Context vectors length: 1170
+Context vectors shape: (1170, 1170)
+  Word      SemD  Word Probability
+0    a  7.064759          0.028487
+1  and  7.064759          0.028937
+2   as  7.064759          0.009413
+3  but  7.064759          0.008864
+4   in  7.064759          0.019179
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/G K Chesterton_semD_Basic_lowercase_1000word_contexts_min_freq_5_min_contexts_5.csv
+Top 10 words with highest SemD values:    Word      SemD  Word Probability
+0     a  7.064759          0.028487
+1   and  7.064759          0.028937
+2    as  7.064759          0.009413
+3   but  7.064759          0.008864
+4    in  7.064759          0.019179
+5    of  7.064759          0.037553
+6  that  7.064759          0.018172
+7   the  7.064759          0.066267
+8    to  7.064759          0.021760
+9    it  7.062192          0.015957
+Spearman Rank Correlation: SignificanceResult(statistic=0.9627979136051229, pvalue=0.0)
+Correlation for G K Chesterton corpus with min frequency 5: SignificanceResult(statistic=0.9627979136051229, pvalue=0.0)
+
+

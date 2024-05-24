@@ -1,0 +1,201 @@
+
+Calculating SemD values for Oscar Wilde corpus with min frequency 1000 and min contexts 5
+
+Length of Corpus: 1586167
+First 20 words in the corpus: ['the', 'picture', 'of', 'dorian', 'gray', 'by', 'oscar', 'wilde', 'jtable', 'chapter', 'the', 'preface', 'the', 'artist', 'is', 'the', 'creator', 'of', 'beautiful', 'things']
+Number of distinct words: 69727
+Number of words in corpus: 1586167
+Number of distinct words with at least 1000 appearances: 186
+U shape: (186, 186)
+S shape: (186,)
+V shape: (1587, 186)
+Word vectors length: 186
+Context vectors length: 1587
+Context vectors shape: (1587, 186)
+  Word      SemD  Word Probability
+0    a  5.157246          0.015836
+1   on  5.154670          0.005328
+2   in  5.050492          0.013382
+3   me  5.044207          0.003586
+4   of  5.025939          0.026125
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Oscar Wilde_semD_Basic_lowercase_1000word_contexts_min_freq_1000_min_contexts_5.csv
+Top 10 words with highest SemD values:   Word      SemD  Word Probability
+0    a  5.157246          0.015836
+1   on  5.154670          0.005328
+2   in  5.050492          0.013382
+3   me  5.044207          0.003586
+4   of  5.025939          0.026125
+5   is  5.012680          0.012475
+6  was  5.005699          0.006014
+7  but  4.989360          0.003861
+8  the  4.944030          0.040838
+9  and  4.933251          0.023047
+Spearman Rank Correlation: SignificanceResult(statistic=0.5067015779238027, pvalue=1.5932087905802843e-13)
+Correlation for Oscar Wilde corpus with min frequency 1000: SignificanceResult(statistic=0.5067015779238027, pvalue=1.5932087905802843e-13)
+Calculating SemD values for Oscar Wilde corpus with min frequency 500 and min contexts 5
+
+Length of Corpus: 1586167
+First 20 words in the corpus: ['the', 'picture', 'of', 'dorian', 'gray', 'by', 'oscar', 'wilde', 'jtable', 'chapter', 'the', 'preface', 'the', 'artist', 'is', 'the', 'creator', 'of', 'beautiful', 'things']
+Number of distinct words: 69727
+Number of words in corpus: 1586167
+Number of distinct words with at least 500 appearances: 350
+U shape: (350, 350)
+S shape: (350,)
+V shape: (1587, 350)
+Word vectors length: 350
+Context vectors length: 1587
+Context vectors shape: (1587, 350)
+  Word      SemD  Word Probability
+0   on  5.877902          0.005328
+1    a  5.876862          0.015836
+2   in  5.800333          0.013382
+3   of  5.770613          0.026125
+4  was  5.757103          0.006014
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Oscar Wilde_semD_Basic_lowercase_1000word_contexts_min_freq_500_min_contexts_5.csv
+Top 10 words with highest SemD values:   Word      SemD  Word Probability
+0   on  5.877902          0.005328
+1    a  5.876862          0.015836
+2   in  5.800333          0.013382
+3   of  5.770613          0.026125
+4  was  5.757103          0.006014
+5   is  5.757101          0.012475
+6   me  5.744238          0.003586
+7  but  5.734665          0.003861
+8  the  5.693052          0.040838
+9  and  5.683032          0.023047
+Spearman Rank Correlation: SignificanceResult(statistic=0.472934524367263, pvalue=6.609761396323322e-21)
+Correlation for Oscar Wilde corpus with min frequency 500: SignificanceResult(statistic=0.472934524367263, pvalue=6.609761396323322e-21)
+Calculating SemD values for Oscar Wilde corpus with min frequency 100 and min contexts 5
+
+Length of Corpus: 1586167
+First 20 words in the corpus: ['the', 'picture', 'of', 'dorian', 'gray', 'by', 'oscar', 'wilde', 'jtable', 'chapter', 'the', 'preface', 'the', 'artist', 'is', 'the', 'creator', 'of', 'beautiful', 'things']
+Number of distinct words: 69727
+Number of words in corpus: 1586167
+Number of distinct words with at least 100 appearances: 1622
+U shape: (1622, 1587)
+S shape: (1587,)
+V shape: (1587, 1587)
+Word vectors length: 1622
+Context vectors length: 1587
+Context vectors shape: (1587, 1587)
+  Word      SemD  Word Probability
+0   on  7.231287          0.005328
+1    a  7.218910          0.015836
+2   in  7.123673          0.013382
+3   of  7.084226          0.026125
+4   is  7.063904          0.012475
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Oscar Wilde_semD_Basic_lowercase_1000word_contexts_min_freq_100_min_contexts_5.csv
+Top 10 words with highest SemD values:   Word      SemD  Word Probability
+0   on  7.231287          0.005328
+1    a  7.218910          0.015836
+2   in  7.123673          0.013382
+3   of  7.084226          0.026125
+4   is  7.063904          0.012475
+5  was  7.043160          0.006014
+6  but  7.029088          0.003861
+7  the  7.008505          0.040838
+8  and  7.002156          0.023047
+9   he  7.000334          0.007995
+Spearman Rank Correlation: SignificanceResult(statistic=0.7678711355632364, pvalue=1.222475264e-315)
+Correlation for Oscar Wilde corpus with min frequency 100: SignificanceResult(statistic=0.7678711355632364, pvalue=1.222475264e-315)
+Calculating SemD values for Oscar Wilde corpus with min frequency 50 and min contexts 5
+
+Length of Corpus: 1586167
+First 20 words in the corpus: ['the', 'picture', 'of', 'dorian', 'gray', 'by', 'oscar', 'wilde', 'jtable', 'chapter', 'the', 'preface', 'the', 'artist', 'is', 'the', 'creator', 'of', 'beautiful', 'things']
+Number of distinct words: 69727
+Number of words in corpus: 1586167
+Number of distinct words with at least 50 appearances: 3067
+U shape: (3067, 1587)
+S shape: (1587,)
+V shape: (1587, 1587)
+Word vectors length: 3067
+Context vectors length: 1587
+Context vectors shape: (1587, 1587)
+  Word      SemD  Word Probability
+0   on  7.231287          0.005328
+1    a  7.218910          0.015836
+2   in  7.123673          0.013382
+3   of  7.084226          0.026125
+4   is  7.063904          0.012475
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Oscar Wilde_semD_Basic_lowercase_1000word_contexts_min_freq_50_min_contexts_5.csv
+Top 10 words with highest SemD values:   Word      SemD  Word Probability
+0   on  7.231287          0.005328
+1    a  7.218910          0.015836
+2   in  7.123673          0.013382
+3   of  7.084226          0.026125
+4   is  7.063904          0.012475
+5  was  7.043160          0.006014
+6  but  7.029088          0.003861
+7  the  7.008505          0.040838
+8  and  7.002156          0.023047
+9   he  7.000334          0.007995
+Spearman Rank Correlation: SignificanceResult(statistic=0.834444380651503, pvalue=0.0)
+Correlation for Oscar Wilde corpus with min frequency 50: SignificanceResult(statistic=0.834444380651503, pvalue=0.0)
+Calculating SemD values for Oscar Wilde corpus with min frequency 10 and min contexts 5
+
+Length of Corpus: 1586167
+First 20 words in the corpus: ['the', 'picture', 'of', 'dorian', 'gray', 'by', 'oscar', 'wilde', 'jtable', 'chapter', 'the', 'preface', 'the', 'artist', 'is', 'the', 'creator', 'of', 'beautiful', 'things']
+Number of distinct words: 69727
+Number of words in corpus: 1586167
+Number of distinct words with at least 10 appearances: 11232
+U shape: (11232, 1587)
+S shape: (1587,)
+V shape: (1587, 1587)
+Word vectors length: 11232
+Context vectors length: 1587
+Context vectors shape: (1587, 1587)
+  Word      SemD  Word Probability
+0   on  7.231287          0.005328
+1    a  7.218910          0.015836
+2   in  7.123673          0.013382
+3   of  7.084226          0.026125
+4   is  7.063904          0.012475
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Oscar Wilde_semD_Basic_lowercase_1000word_contexts_min_freq_10_min_contexts_5.csv
+Top 10 words with highest SemD values:   Word      SemD  Word Probability
+0   on  7.231287          0.005328
+1    a  7.218910          0.015836
+2   in  7.123673          0.013382
+3   of  7.084226          0.026125
+4   is  7.063904          0.012475
+5  was  7.043160          0.006014
+6  but  7.029088          0.003861
+7  the  7.008505          0.040838
+8  and  7.002156          0.023047
+9   he  7.000334          0.007995
+Spearman Rank Correlation: SignificanceResult(statistic=0.941062824235675, pvalue=0.0)
+Correlation for Oscar Wilde corpus with min frequency 10: SignificanceResult(statistic=0.941062824235675, pvalue=0.0)
+Calculating SemD values for Oscar Wilde corpus with min frequency 5 and min contexts 5
+
+Length of Corpus: 1586167
+First 20 words in the corpus: ['the', 'picture', 'of', 'dorian', 'gray', 'by', 'oscar', 'wilde', 'jtable', 'chapter', 'the', 'preface', 'the', 'artist', 'is', 'the', 'creator', 'of', 'beautiful', 'things']
+Number of distinct words: 69727
+Number of words in corpus: 1586167
+Number of distinct words with at least 5 appearances: 19184
+U shape: (19184, 1587)
+S shape: (1587,)
+V shape: (1587, 1587)
+Word vectors length: 19184
+Context vectors length: 1587
+Context vectors shape: (1587, 1587)
+  Word      SemD  Word Probability
+0   on  7.231287          0.005328
+1    a  7.218910          0.015836
+2   in  7.123673          0.013382
+3   of  7.084226          0.026125
+4   is  7.063904          0.012475
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Oscar Wilde_semD_Basic_lowercase_1000word_contexts_min_freq_5_min_contexts_5.csv
+Top 10 words with highest SemD values:   Word      SemD  Word Probability
+0   on  7.231287          0.005328
+1    a  7.218910          0.015836
+2   in  7.123673          0.013382
+3   of  7.084226          0.026125
+4   is  7.063904          0.012475
+5  was  7.043160          0.006014
+6  but  7.029088          0.003861
+7  the  7.008505          0.040838
+8  and  7.002156          0.023047
+9   he  7.000334          0.007995
+Spearman Rank Correlation: SignificanceResult(statistic=0.9532732129223883, pvalue=0.0)
+Correlation for Oscar Wilde corpus with min frequency 5: SignificanceResult(statistic=0.9532732129223883, pvalue=0.0)
+
+

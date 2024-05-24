@@ -1,0 +1,201 @@
+
+Calculating SemD values for Mark Twain corpus with min frequency 1000 and min contexts 5
+
+Length of Corpus: 3990382
+First 20 words in the corpus: ['what', 'is', 'man', 'and', 'other', 'essays', 'by', 'mark', 'twain', 'samuel', 'langhorne', 'clemens', 'contents', 'what', 'is', 'man', 'the', 'death', 'of', 'jean']
+Number of distinct words: 125056
+Number of words in corpus: 3990382
+Number of distinct words with at least 1000 appearances: 367
+U shape: (367, 367)
+S shape: (367,)
+V shape: (3991, 367)
+Word vectors length: 367
+Context vectors length: 3991
+Context vectors shape: (3991, 367)
+  Word      SemD  Word Probability
+0   on  5.920054          0.005919
+1   he  5.895536          0.010966
+2   no  5.871152          0.003710
+3   in  5.860296          0.014901
+4  was  5.856039          0.013184
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Mark Twain_semD_Basic_lowercase_1000word_contexts_min_freq_1000_min_contexts_5.csv
+Top 10 words with highest SemD values:   Word      SemD  Word Probability
+0   on  5.920054          0.005919
+1   he  5.895536          0.010966
+2   no  5.871152          0.003710
+3   in  5.860296          0.014901
+4  was  5.856039          0.013184
+5   of  5.855861          0.024399
+6    a  5.853699          0.023338
+7   is  5.841520          0.007563
+8  all  5.840037          0.004351
+9  had  5.839808          0.005412
+Spearman Rank Correlation: SignificanceResult(statistic=0.7683616786156282, pvalue=9.856840372153344e-73)
+Correlation for Mark Twain corpus with min frequency 1000: SignificanceResult(statistic=0.7683616786156282, pvalue=9.856840372153344e-73)
+Calculating SemD values for Mark Twain corpus with min frequency 500 and min contexts 5
+
+Length of Corpus: 3990382
+First 20 words in the corpus: ['what', 'is', 'man', 'and', 'other', 'essays', 'by', 'mark', 'twain', 'samuel', 'langhorne', 'clemens', 'contents', 'what', 'is', 'man', 'the', 'death', 'of', 'jean']
+Number of distinct words: 125056
+Number of words in corpus: 3990382
+Number of distinct words with at least 500 appearances: 724
+U shape: (724, 724)
+S shape: (724,)
+V shape: (3991, 724)
+Word vectors length: 724
+Context vectors length: 3991
+Context vectors shape: (3991, 724)
+  Word      SemD  Word Probability
+0   on  6.655803          0.005919
+1   he  6.627945          0.010966
+2   no  6.617745          0.003710
+3   in  6.609030          0.014901
+4  was  6.602879          0.013184
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Mark Twain_semD_Basic_lowercase_1000word_contexts_min_freq_500_min_contexts_5.csv
+Top 10 words with highest SemD values:   Word      SemD  Word Probability
+0   on  6.655803          0.005919
+1   he  6.627945          0.010966
+2   no  6.617745          0.003710
+3   in  6.609030          0.014901
+4  was  6.602879          0.013184
+5    a  6.598558          0.023338
+6   of  6.589751          0.024399
+7    i  6.584070          0.015321
+8   so  6.581983          0.003867
+9   is  6.575176          0.007563
+Spearman Rank Correlation: SignificanceResult(statistic=0.6847498575271878, pvalue=2.6925399082894543e-101)
+Correlation for Mark Twain corpus with min frequency 500: SignificanceResult(statistic=0.6847498575271878, pvalue=2.6925399082894543e-101)
+Calculating SemD values for Mark Twain corpus with min frequency 100 and min contexts 5
+
+Length of Corpus: 3990382
+First 20 words in the corpus: ['what', 'is', 'man', 'and', 'other', 'essays', 'by', 'mark', 'twain', 'samuel', 'langhorne', 'clemens', 'contents', 'what', 'is', 'man', 'the', 'death', 'of', 'jean']
+Number of distinct words: 125056
+Number of words in corpus: 3990382
+Number of distinct words with at least 100 appearances: 3373
+U shape: (3373, 3373)
+S shape: (3373,)
+V shape: (3991, 3373)
+Word vectors length: 3373
+Context vectors length: 3991
+Context vectors shape: (3991, 3373)
+  Word      SemD  Word Probability
+0   on  8.183344          0.005919
+1   he  8.136068          0.010966
+2   in  8.110176          0.014901
+3    a  8.104625          0.023338
+4  was  8.098459          0.013184
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Mark Twain_semD_Basic_lowercase_1000word_contexts_min_freq_100_min_contexts_5.csv
+Top 10 words with highest SemD values:   Word      SemD  Word Probability
+0   on  8.183344          0.005919
+1   he  8.136068          0.010966
+2   in  8.110176          0.014901
+3    a  8.104625          0.023338
+4  was  8.098459          0.013184
+5   of  8.088724          0.024399
+6   no  8.086483          0.003710
+7   to  8.072137          0.021070
+8  for  8.072050          0.006703
+9  the  8.071814          0.048441
+Spearman Rank Correlation: SignificanceResult(statistic=0.8436043720131737, pvalue=0.0)
+Correlation for Mark Twain corpus with min frequency 100: SignificanceResult(statistic=0.8436043720131737, pvalue=0.0)
+Calculating SemD values for Mark Twain corpus with min frequency 50 and min contexts 5
+
+Length of Corpus: 3990382
+First 20 words in the corpus: ['what', 'is', 'man', 'and', 'other', 'essays', 'by', 'mark', 'twain', 'samuel', 'langhorne', 'clemens', 'contents', 'what', 'is', 'man', 'the', 'death', 'of', 'jean']
+Number of distinct words: 125056
+Number of words in corpus: 3990382
+Number of distinct words with at least 50 appearances: 6206
+U shape: (6206, 3991)
+S shape: (3991,)
+V shape: (3991, 3991)
+Word vectors length: 6206
+Context vectors length: 3991
+Context vectors shape: (3991, 3991)
+  Word      SemD  Word Probability
+0   on  8.238273          0.005919
+1   he  8.190354          0.010966
+2   in  8.171599          0.014901
+3    a  8.166216          0.023338
+4  was  8.159661          0.013184
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Mark Twain_semD_Basic_lowercase_1000word_contexts_min_freq_50_min_contexts_5.csv
+Top 10 words with highest SemD values:   Word      SemD  Word Probability
+0   on  8.238273          0.005919
+1   he  8.190354          0.010966
+2   in  8.171599          0.014901
+3    a  8.166216          0.023338
+4  was  8.159661          0.013184
+5   of  8.151045          0.024399
+6   no  8.140898          0.003710
+7   to  8.135640          0.021070
+8  for  8.135347          0.006703
+9  the  8.135347          0.048441
+Spearman Rank Correlation: SignificanceResult(statistic=0.8963497832502539, pvalue=0.0)
+Correlation for Mark Twain corpus with min frequency 50: SignificanceResult(statistic=0.8963497832502539, pvalue=0.0)
+Calculating SemD values for Mark Twain corpus with min frequency 10 and min contexts 5
+
+Length of Corpus: 3990382
+First 20 words in the corpus: ['what', 'is', 'man', 'and', 'other', 'essays', 'by', 'mark', 'twain', 'samuel', 'langhorne', 'clemens', 'contents', 'what', 'is', 'man', 'the', 'death', 'of', 'jean']
+Number of distinct words: 125056
+Number of words in corpus: 3990382
+Number of distinct words with at least 10 appearances: 20536
+U shape: (20536, 3991)
+S shape: (3991,)
+V shape: (3991, 3991)
+Word vectors length: 20536
+Context vectors length: 3991
+Context vectors shape: (3991, 3991)
+  Word      SemD  Word Probability
+0   on  8.238273          0.005919
+1   he  8.190354          0.010966
+2   in  8.171599          0.014901
+3    a  8.166216          0.023338
+4  was  8.159661          0.013184
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Mark Twain_semD_Basic_lowercase_1000word_contexts_min_freq_10_min_contexts_5.csv
+Top 10 words with highest SemD values:   Word      SemD  Word Probability
+0   on  8.238273          0.005919
+1   he  8.190354          0.010966
+2   in  8.171599          0.014901
+3    a  8.166216          0.023338
+4  was  8.159661          0.013184
+5   of  8.151045          0.024399
+6   no  8.140898          0.003710
+7   to  8.135640          0.021070
+8  for  8.135347          0.006703
+9  the  8.135347          0.048441
+Spearman Rank Correlation: SignificanceResult(statistic=0.9538408979816999, pvalue=0.0)
+Correlation for Mark Twain corpus with min frequency 10: SignificanceResult(statistic=0.9538408979816999, pvalue=0.0)
+Calculating SemD values for Mark Twain corpus with min frequency 5 and min contexts 5
+
+Length of Corpus: 3990382
+First 20 words in the corpus: ['what', 'is', 'man', 'and', 'other', 'essays', 'by', 'mark', 'twain', 'samuel', 'langhorne', 'clemens', 'contents', 'what', 'is', 'man', 'the', 'death', 'of', 'jean']
+Number of distinct words: 125056
+Number of words in corpus: 3990382
+Number of distinct words with at least 5 appearances: 33369
+U shape: (33369, 3991)
+S shape: (3991,)
+V shape: (3991, 3991)
+Word vectors length: 33369
+Context vectors length: 3991
+Context vectors shape: (3991, 3991)
+  Word      SemD  Word Probability
+0   on  8.238273          0.005919
+1   he  8.190354          0.010966
+2   in  8.171599          0.014901
+3    a  8.166216          0.023338
+4  was  8.159661          0.013184
+SemD values saved to ../Results/cell_outputs_for_different_min_freqs/Mark Twain_semD_Basic_lowercase_1000word_contexts_min_freq_5_min_contexts_5.csv
+Top 10 words with highest SemD values:   Word      SemD  Word Probability
+0   on  8.238273          0.005919
+1   he  8.190354          0.010966
+2   in  8.171599          0.014901
+3    a  8.166216          0.023338
+4  was  8.159661          0.013184
+5   of  8.151045          0.024399
+6   no  8.140898          0.003710
+7   to  8.135640          0.021070
+8  for  8.135347          0.006703
+9  the  8.135347          0.048441
+Spearman Rank Correlation: SignificanceResult(statistic=0.9587783863154428, pvalue=0.0)
+Correlation for Mark Twain corpus with min frequency 5: SignificanceResult(statistic=0.9587783863154428, pvalue=0.0)
+
+

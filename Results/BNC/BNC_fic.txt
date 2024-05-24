@@ -1,0 +1,111 @@
+
+Length of Corpus: 1010279
+First 20 words in the corpus: ['detective', 'chief', 'inspector', 'john', 'mcleish', 'gaze', 'doubtfully', 'at', 'the', 'plate', 'before', 'he', 'have', 'think', 'he', 'be', 'hungry', 'he', 'now', 'realize']
+Number of distinct words: 28171
+Number of words in corpus: 1010279
+Number of distinct words with at least 1000 appearances: 112
+U shape: (112, 112)
+S shape: (112,)
+V shape: (1011, 112)
+Word vectors length: 112
+Context vectors length: 1011
+Context vectors shape: (1011, 112)
+   Word      SemD  Word Probability
+0    it  4.804907          0.014680
+1     a  4.804846          0.022433
+2   and  4.804846          0.025256
+3    be  4.804846          0.042608
+4  have  4.804846          0.019058
+SemD values saved to ../Results/BNC/fic_semD_Basic_lowercase_1000word_contexts_min_freq_1000_min_contexts_10.csv
+Spearman Rank Correlation: SignificanceResult(statistic=0.9453957648447612, pvalue=2.223666041824958e-55)
+Correlation for fic corpus with min frequency 1000: SignificanceResult(statistic=0.9453957648447612, pvalue=2.223666041824958e-55)
+
+
+Length of Corpus: 1010279
+First 20 words in the corpus: ['detective', 'chief', 'inspector', 'john', 'mcleish', 'gaze', 'doubtfully', 'at', 'the', 'plate', 'before', 'he', 'have', 'think', 'he', 'be', 'hungry', 'he', 'now', 'realize']
+Number of distinct words: 28171
+Number of words in corpus: 1010279
+Number of distinct words with at least 500 appearances: 212
+U shape: (212, 212)
+S shape: (212,)
+V shape: (1011, 212)
+Word vectors length: 212
+Context vectors length: 1011
+Context vectors shape: (1011, 212)
+   Word      SemD  Word Probability
+0    it  5.517112          0.014680
+1     a  5.516678          0.022433
+2   and  5.516678          0.025256
+3    be  5.516678          0.042608
+4  have  5.516678          0.019058
+SemD values saved to ../Results/BNC/fic_semD_Basic_lowercase_1000word_contexts_min_freq_500_min_contexts_10.csv
+Spearman Rank Correlation: SignificanceResult(statistic=0.9364156938041405, pvalue=1.7995057865841457e-97)
+Correlation for fic corpus with min frequency 500: SignificanceResult(statistic=0.9364156938041405, pvalue=1.7995057865841457e-97)
+
+
+Length of Corpus: 1010279
+First 20 words in the corpus: ['detective', 'chief', 'inspector', 'john', 'mcleish', 'gaze', 'doubtfully', 'at', 'the', 'plate', 'before', 'he', 'have', 'think', 'he', 'be', 'hungry', 'he', 'now', 'realize']
+Number of distinct words: 28171
+Number of words in corpus: 1010279
+Number of distinct words with at least 100 appearances: 939
+U shape: (939, 939)
+S shape: (939,)
+V shape: (1011, 939)
+Word vectors length: 939
+Context vectors length: 1011
+Context vectors shape: (1011, 939)
+   Word      SemD  Word Probability
+0     a  6.912731          0.022433
+1   and  6.912731          0.025256
+2    be  6.912731          0.042608
+3  have  6.912731          0.019058
+4    in  6.912731          0.014493
+SemD values saved to ../Results/BNC/fic_semD_Basic_lowercase_1000word_contexts_min_freq_100_min_contexts_10.csv
+Spearman Rank Correlation: SignificanceResult(statistic=0.8802640498549913, pvalue=1.2329444063274572e-305)
+Correlation for fic corpus with min frequency 100: SignificanceResult(statistic=0.8802640498549913, pvalue=1.2329444063274572e-305)
+
+
+Length of Corpus: 1010279
+First 20 words in the corpus: ['detective', 'chief', 'inspector', 'john', 'mcleish', 'gaze', 'doubtfully', 'at', 'the', 'plate', 'before', 'he', 'have', 'think', 'he', 'be', 'hungry', 'he', 'now', 'realize']
+Number of distinct words: 28171
+Number of words in corpus: 1010279
+Number of distinct words with at least 50 appearances: 1703
+U shape: (1703, 1011)
+S shape: (1011,)
+V shape: (1011, 1011)
+Word vectors length: 1703
+Context vectors length: 1011
+Context vectors shape: (1011, 1011)
+   Word      SemD  Word Probability
+0     a  6.918695          0.022433
+1   and  6.918695          0.025256
+2    be  6.918695          0.042608
+3  have  6.918695          0.019058
+4    in  6.918695          0.014493
+SemD values saved to ../Results/BNC/fic_semD_Basic_lowercase_1000word_contexts_min_freq_50_min_contexts_10.csv
+Spearman Rank Correlation: SignificanceResult(statistic=0.8584601042804424, pvalue=0.0)
+
+
+Correlation for fic corpus with min frequency 50: SignificanceResult(statistic=0.8584601042804424, pvalue=0.0)
+Length of Corpus: 1010279
+First 20 words in the corpus: ['detective', 'chief', 'inspector', 'john', 'mcleish', 'gaze', 'doubtfully', 'at', 'the', 'plate', 'before', 'he', 'have', 'think', 'he', 'be', 'hungry', 'he', 'now', 'realize']
+Number of distinct words: 28171
+Number of words in corpus: 1010279
+Number of distinct words with at least 10 appearances: 5488
+U shape: (5488, 1011)
+S shape: (1011,)
+V shape: (1011, 1011)
+Word vectors length: 5488
+Context vectors length: 1011
+Context vectors shape: (1011, 1011)
+   Word      SemD  Word Probability
+0     a  6.918695          0.022433
+1   and  6.918695          0.025256
+2    be  6.918695          0.042608
+3  have  6.918695          0.019058
+4    in  6.918695          0.014493
+SemD values saved to ../Results/BNC/fic_semD_Basic_lowercase_1000word_contexts_min_freq_10_min_contexts_10.csv
+Spearman Rank Correlation: SignificanceResult(statistic=0.9274845921513634, pvalue=0.0)
+Correlation for fic corpus with min frequency 10: SignificanceResult(statistic=0.9274845921513634, pvalue=0.0)
+
+
